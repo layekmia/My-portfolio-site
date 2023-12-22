@@ -4,3 +4,23 @@
 .items-center{
    align-items: center;
 }
+.justify-between{
+   justify-content: space-between;
+}
+.primary-btn{
+   padding: .8rem 3rem;
+   background-color: #3DCFD3;
+   cursor: pointer;
+   outline: none;
+   border: 2px solid transparent;
+   font-size: 1rem;
+   text-transform: uppercase;
+   font-weight: 600;
+   transition: all .5s ease;
+}
+.primary-btn:hover{
+   background-color: transparent;
+   border-color: var(--primary);
+   color: var(--primary);
+}
+
