@@ -7,6 +7,12 @@
 .justify-between{
    justify-content: space-between;
 }
+.justify-center{
+   justify-content: center;
+}
+.flex-1{
+   flex: 1;
+}
 .primary-btn{
    padding: .8rem 3rem;
    background-color: #3DCFD3;
@@ -16,7 +22,7 @@
    font-size: 1rem;
    text-transform: uppercase;
    font-weight: 600;
-   transition: all .5s ease;
+   transition: all .2s ease;
 }
 .primary-btn:hover{
    background-color: transparent;
@@ -24,3 +30,19 @@
    color: var(--primary);
 }
 
+.sec-btn{
+   padding: .8rem 3rem;
+   background-color: transparent;
+   cursor: pointer;
+   outline: none;
+   border: 2px solid  #3DCFD3;
+   font-size: 1rem;
+   text-transform: uppercase;
+   font-weight: 600;
+   transition: all .2s ease;
+   color: #3DCFD3;
+}
+.sec-btn:hover{
+   background-color: #3DCFD3;
+   color: #000;
+}
