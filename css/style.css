@@ -8,6 +8,9 @@
 body{
    font-family: 'Poppins', sans-serif;
 }
+html{
+   scroll-behavior: smooth;
+}
 :root{
    --primary:#3DCFD3;
    --dark:#161616;
@@ -48,7 +51,9 @@ header nav{
 nav .my-logo{
    margin-right: 3rem;
 }
-
+.hamberger{
+   display: none;
+}
 /* * Hero section style */
 .hero{
    padding: 4rem 0;
@@ -187,10 +192,10 @@ section.about .about-img{
 }
 /* * I am a Frelancer section style */
 .frelancer{
-   background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(/images/camera.png);
+   background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../images/camera.png);
    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
- padding: 6rem 0 14rem;
- position: relative;
+   padding: 6rem 0 14rem;
+   position: relative;
 }
 .frelancer .content{
    text-align: center;

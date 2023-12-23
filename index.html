@@ -6,11 +6,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>MY PORTFOLIO</title>
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/respnsive.css">
    <!--*========Font Awesome Cdn========-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-   <header>
+   <header id="Home">
       <div class="container">
          <nav class="flex items-center justify-between">
             <div class="left flex items-center">
@@ -18,15 +19,18 @@
                   <img src="images/logo.svg" alt="">
                </div>
                <div class="nav-menu">
-                  <a href="#">Home</a>
-                  <a href="#">About</a>
-                  <a href="#">Services</a>
-                  <a href="#">Pages</a>
-                  <a href="#">Blog</a>
+                  <a href="#Home">Home</a>
+                  <a href="#About">About</a>
+                  <a href="#Services">Services</a>
+                  <a href="#Pages">Pages</a>
+                  <a href="#Blog">Blog</a>
                </div>
             </div>
-            <div class="right">
+            <div class="right none-btn">
                <button class="btn primary-btn">contact</button>
+            </div>
+            <div class="hamberger">
+               <i class="fa-solid fa-bars"></i>
             </div>
          </nav>
          <!--*============Hero section style==========-->
@@ -48,7 +52,7 @@
       </div>
    </header>
    <!--*============About section==========-->
-   <section class="about">
+   <section class="about" id="About">
       <div class="container flex items-center">
          <div class="flex-1">
             <img class="about-img" src="images/man-2.png" alt="">
@@ -69,7 +73,7 @@
       </div>
    </section>
    <!--*=================service Section=======================-->
-   <section class="services">
+   <section class="services" id="Services">
       <div class="container">
          <h2 class="section-head"> <span>Our</span> Services</h2>
          <p>
@@ -110,7 +114,7 @@
       </div>
    </section>
    <!--*===================Frelancer section============-->
-   <section class="frelancer">
+   <section class="frelancer ">
       <div class="content">
          <h2>I Am Available For Freelancer.</h2>
          <p>
@@ -120,7 +124,7 @@
       </div>
    </section>
    <!--*===================Frelancer section============-->
-   <section class="review">
+   <section class="review" id="Pages">
       <div class="container">
          <h2 class="section-head"><span>Our</span> Client</h2>
          <p>
@@ -189,7 +193,7 @@
       </div>
    </section>
    <!--*===================Blog section============-->
-   <div class="blog-section">
+   <div class="blog-section" id="Blog">
       <div class="container">
          <h2 class="section-head"><span>Our</span> Work</h2>
          <p>
